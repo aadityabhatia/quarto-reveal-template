@@ -1,0 +1,74 @@
+project:
+  type: website
+  render:
+    - index.qmd
+    - lessons/
+  resources:
+    - CNAME
+    - robots.txt
+    - resources/
+  preview:
+    port: 7827
+    browser: false
+    navigate: false
+    timeout: 3600
+
+website:
+  title: AI101
+  description: Introduction to Python
+  site-url: https://slides.example.com/
+  # image: /images/01.png
+  # favicon: /images/favicon.svg
+  page-footer: "© 2025 US Military Academy"
+  page-navigation: true
+  open-graph: true
+  search: true
+  navbar:
+    foreground: black
+    background: "#d3bc8d"
+
+format:
+  html:
+    canonical-url: true
+    license: CC BY-NC-SA
+    toc: true
+    toc-expand: 2
+    code-fold: true
+    smooth-scroll: true
+    page-layout: full
+    fig-align: center
+    respect-user-color-scheme: true
+    theme:
+      light:
+        - sandstone
+      dark:
+        - darkly
+    mermaid:
+      theme: neutral
+    grid:
+      body-width: 1800px
+  revealjs:
+    author: Dr. Joe Snuffy
+    center: true
+    date-format: full
+    transition: fade
+    default-timing: 60
+    preview-links: false
+    link-external-newwindow: true
+    link-external-icon: true
+    pause: false
+    code-block-height: 800px
+    code-annotations: select
+    tbl-cap-location: bottom
+    slide-number: true
+    pdf-separate-fragments: false
+    theme: serif
+    css: '/slides.css'
+    mermaid:
+      theme: default
+    mermaid-format: png
+    width: 1600
+    height: 900
+    chalkboard: false
+    hash-type: number
+    multiplex: false

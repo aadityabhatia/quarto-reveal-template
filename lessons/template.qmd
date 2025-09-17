@@ -1,0 +1,27 @@
+---
+format: revealjs
+title: TEMPLATE
+subtitle: TEMPLATE
+description: TEMPLATE
+date: 2025-12-31
+# image: /images/99.png
+# title-slide-attributes:
+#     data-background-image: /images/99.png
+#     data-background-opacity: "0.3"
+# draft: true
+---
+
+## Announcements
+
+- Exam tomorrow
+- Project due next week
+
+
+## Lesson Objectives  {data-background-image="/images/99.png" data-background-opacity="0.1"}
+
+- Understand Python syntax and semantics
+- Explore Python libraries and frameworks
+- Set up Python development environment
+- Write some Python code
+
+<!-- ## Discussion! {timing=240 data-background-opacity="0.3" data-background-image="/images/99.png"} -->

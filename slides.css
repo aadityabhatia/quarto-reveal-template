@@ -1,0 +1,15 @@
+.reveal pre {
+    font-size: 0.7em;
+}
+
+.reveal pre code {
+    max-height: 800px;
+}
+
+body {
+    font-size: 1.8em;
+}
+
+.caption, figcaption {
+    text-align: center;
+}
