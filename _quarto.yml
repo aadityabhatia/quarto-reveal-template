@@ -16,10 +16,10 @@ project:
 website:
   title: AI101
   description: Introduction to Python
-  site-url: https://slides.example.com/
+  # site-url: https://slides.example.com/
   # image: /images/01.png
-  # favicon: /images/favicon.svg
-  page-footer: "© 2025 US Military Academy"
+  favicon: /images/favicon.svg
+  page-footer: "© 2026 United States Military Academy"
   page-navigation: true
   open-graph: true
   search: true
