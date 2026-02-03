@@ -10,8 +10,10 @@ The following instructions will help you get started with hosting your own versi
 
 2. [Install Quarto](https://quarto.org/docs/get-started/) on your local machine.
 
-3. Run locally once to manually create a new branch and publish to it- `quarto publish gh-pages`
+3. Update `_quarto.yml` and `_brand.yml` files with your own information. At the minimum, change the site URL. You can also create a file named `CNAME` in the root directory to use your custom domain.
 
-4. Push changes to your forked repository on GitHub. GitHub Pages will automatically build and deploy the website.
+4. Run locally once to manually create a new branch and publish to it- `quarto publish gh-pages`
 
-5. Optionally, setup a custom domain for your website from Repository Settings -> Pages -> Custom domain.
+5. Push changes to your forked repository on GitHub. GitHub Pages will automatically build and deploy the website. Note that the branch `gh-pages` must exist for this build action to succeed.
+
+6. Optionally, setup a custom domain for your website from Repository Settings -> Pages -> Custom domain.
